@@ -17,6 +17,7 @@ body {
 
 #plan{
     background-color: $secondary-color1;
+    border-radius: 1rem;
 }
 
 .change-btn{
@@ -24,13 +25,24 @@ body {
     text-decoration: underline;
 }
 
-.weight-1{
-    font-weight: $weight1;
+#main-card{
+    border-radius: 1rem;
+
+    img{
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    #plan-heading{
+        font-weight: $weight3;
+    }
+
+    #price{
+        color: $secondary-color2;
+    }
 }
 
-.weight-2{
-    font-weight: $weight2;
-}
-.weight-3{
-    font-weight: $weight3;
+#card-content{
+    p{
+        font-size: $para-font-size;
+    }
 }

@@ -13,6 +13,7 @@ body {
 
 #plan {
   background-color: #f5f7ff;
+  border-radius: 1rem;
 }
 
 .change-btn {
@@ -20,15 +21,23 @@ body {
   text-decoration: underline;
 }
 
-.weight-1 {
-  font-weight: 500;
+#main-card {
+  border-radius: 1rem;
 }
 
-.weight-2 {
-  font-weight: 700;
+#main-card img {
+  border-radius: 1rem 1rem 0 0;
 }
 
-.weight-3 {
+#main-card #plan-heading {
   font-weight: 900;
+}
+
+#main-card #price {
+  color: #7280a7;
+}
+
+#card-content p {
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
