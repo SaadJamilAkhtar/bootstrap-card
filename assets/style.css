@@ -16,6 +16,8 @@ body {
 #main-card {
   background: white;
   max-width: 28rem;
+  -webkit-box-shadow: 0 15px 15px rgba(56, 41, 224, 0.2);
+          box-shadow: 0 15px 15px rgba(56, 41, 224, 0.2);
 }
 
 .center-items {
@@ -59,6 +61,21 @@ body {
 
 #card-content p {
   font-size: 16px;
+}
+
+.btn-main {
+  background: #3829e0;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  -webkit-box-shadow: 0 10px 10px rgba(56, 41, 224, 0.2);
+          box-shadow: 0 10px 10px rgba(56, 41, 224, 0.2);
+}
+
+.btn-cancel {
+  border: none;
+  background: none;
+  color: #7280a7;
 }
 
 @media (max-width: 480px) {
