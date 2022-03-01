@@ -1,0 +1,36 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+
+body {
+    background: $primary-color url('./img/pattern-background-desktop.svg') no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+#main-card{
+    background: white;
+    max-width: 31.25vw;
+    margin-left:20vw;
+    margin-top: 20vh;
+}
+
+#plan{
+    background-color: $secondary-color1;
+}
+
+.change-btn{
+    color: $primary-color-1;
+    text-decoration: underline;
+}
+
+.weight-1{
+    font-weight: $weight1;
+}
+
+.weight-2{
+    font-weight: $weight2;
+}
+.weight-3{
+    font-weight: $weight3;
+}

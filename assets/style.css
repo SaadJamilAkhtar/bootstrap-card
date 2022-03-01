@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+body {
+  background: #e0e8ff url("./img/pattern-background-desktop.svg") no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+#main-card {
+  background: white;
+  max-width: 31.25vw;
+  margin-left: 20vw;
+  margin-top: 20vh;
+}
+
+#plan {
+  background-color: #f5f7ff;
+}
+
+.change-btn {
+  color: #3829e0;
+  text-decoration: underline;
+}
+
+.weight-1 {
+  font-weight: 500;
+}
+
+.weight-2 {
+  font-weight: 700;
+}
+
+.weight-3 {
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */
