@@ -5,14 +5,21 @@
 body {
     background: $primary-color url('./img/pattern-background-desktop.svg') no-repeat;
     font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #main-card{
     background: white;
-    max-width: 31.25vw;
-    margin-left:20vw;
-    margin-top: 20vh;
+    max-width: 28rem;
+}
+
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #plan{
@@ -30,6 +37,7 @@ body {
 
     img{
         border-radius: 1rem 1rem 0 0;
+        max-width: 100%;
     }
 
     #plan-heading{
@@ -45,4 +53,12 @@ body {
     p{
         font-size: $para-font-size;
     }
+}
+
+@media (max-width: 480px) {
+    #main-card{
+        max-width: 100%;
+        margin-left:0;
+    }
+
 }

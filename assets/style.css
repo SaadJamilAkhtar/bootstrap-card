@@ -2,13 +2,32 @@
 body {
   background: #e0e8ff url("./img/pattern-background-desktop.svg") no-repeat;
   font-family: 'Red Hat Display', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #main-card {
   background: white;
-  max-width: 31.25vw;
-  margin-left: 20vw;
-  margin-top: 20vh;
+  max-width: 28rem;
+}
+
+.center-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #plan {
@@ -27,6 +46,7 @@ body {
 
 #main-card img {
   border-radius: 1rem 1rem 0 0;
+  max-width: 100%;
 }
 
 #main-card #plan-heading {
@@ -39,5 +59,12 @@ body {
 
 #card-content p {
   font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  #main-card {
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
