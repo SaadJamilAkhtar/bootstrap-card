@@ -12,6 +12,7 @@ body {
 
 
 #main-card{
+    transition: all 0.25s ease-out;
     background: white;
     max-width: 28rem;
     box-shadow: 0 15px 15px rgba(56, 41, 224,0.2);
@@ -31,6 +32,12 @@ body {
 .change-btn{
     color: $primary-color-1;
     text-decoration: underline;
+
+    &:hover{
+        color:#756BF1;
+        text-decoration: none;
+        
+    }
 }
 
 #main-card{
@@ -50,24 +57,38 @@ body {
     }
 }
 
+#heading{
+    transition: all 0.5s ease-out;
+}
+
 #card-content{
+    transition: all 0.5s ease-out;
     p{
         font-size: $para-font-size;
     }
 }
 
 .btn-main{
+    transition: all 0.25s ease-out;
     background: $primary-color-1;
     color: white;
     border-radius: 1rem;
     padding: 0.75rem;
     box-shadow: 0 10px 10px rgba(56, 41, 224,0.2);
+
+    &:hover {
+        background: #756BF1;
+    }
 }
 
 .btn-cancel{
     border: none;
     background: none;
     color: $secondary-color2;
+
+    &:hover {
+        color: $secondary-color3;
+    }
 }
 
 @media (max-width: 480px) {

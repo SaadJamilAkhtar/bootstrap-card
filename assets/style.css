@@ -14,6 +14,8 @@ body {
 }
 
 #main-card {
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
   background: white;
   max-width: 28rem;
   -webkit-box-shadow: 0 15px 15px rgba(56, 41, 224, 0.2);
@@ -42,6 +44,11 @@ body {
   text-decoration: underline;
 }
 
+.change-btn:hover {
+  color: #756BF1;
+  text-decoration: none;
+}
+
 #main-card {
   border-radius: 1rem;
 }
@@ -59,11 +66,23 @@ body {
   color: #7280a7;
 }
 
+#heading {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+#card-content {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
 #card-content p {
   font-size: 16px;
 }
 
 .btn-main {
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
   background: #3829e0;
   color: white;
   border-radius: 1rem;
@@ -72,10 +91,18 @@ body {
           box-shadow: 0 10px 10px rgba(56, 41, 224, 0.2);
 }
 
+.btn-main:hover {
+  background: #756BF1;
+}
+
 .btn-cancel {
   border: none;
   background: none;
   color: #7280a7;
+}
+
+.btn-cancel:hover {
+  color: #1f2f56;
 }
 
 @media (max-width: 480px) {
